@@ -1,0 +1,19 @@
+@use "../styles/foundation/basics" as basics;
+
+.header {
+  padding: 20px;
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+  span {
+    font-size: 0.9rem;
+    font-weight: 200;
+
+    @media screen and (max-width: 480px) {
+      font-size: 0.8rem;
+    }
+  }
+}

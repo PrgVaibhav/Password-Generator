@@ -1,0 +1,12 @@
+@use "../styles/foundation/basics" as basics;
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  p {
+    a {
+      color: basics.$primary-color;
+      text-decoration: underline;
+    }
+  }
+}

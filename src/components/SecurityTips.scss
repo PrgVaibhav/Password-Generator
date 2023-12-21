@@ -1,0 +1,33 @@
+@use "../styles/foundation/basics" as basics;
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+
+    li {
+      font-size: 0.9rem;
+
+      h3 {
+        font-size: 1.2rem;
+      }
+
+      p {
+        margin-top: 5px;
+        line-height: 20px;
+        text-align: justify;
+      }
+    }
+  }
+}
